@@ -10,5 +10,20 @@ The application has pagination functionality to display the projects in pages, a
 
 Overall, this is a simple CRUD application with basic functionality.
 
+# Install Dependencies
+```powershell
+# Install dependencies
+npm install
+
+# Angular CLI
+npm install -g @angular/cli
+
+# If execution policy doesn't permit scripts, in powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+# Ports : 
+# Angular : 4200
+# Node : 3000
+```
 # Image
 ![](timely.png)
