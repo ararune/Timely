@@ -9,3 +9,6 @@ The front-end of the application is developed with Angular and provides a user i
 The application has pagination functionality to display the projects in pages, and also allows users to export the project data as an Excel file.
 
 Overall, this is a simple CRUD application with basic functionality.
+
+# Image
+![](timely.png)
