@@ -1,0 +1,130 @@
+*{
+  font-family: "Droid Sans Mono", monospace;
+}
+
+.timer-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #222;
+}
+
+.timer {
+  font-size: 4em;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px 30px;
+  text-align: center;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #222;
+  color: aliceblue;
+  overflow: hidden;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.project-card-header {
+  background-color: #3a4ed5;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-card-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.pagination{
+  margin-top: 10px;
+}
+.pagination .button{
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #3a4ed5;
+  color: #f0e6ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+.pagination .active {
+  background-color: #eaeaea;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+.pagination button.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3a4ed5;
+  color: #f0e6ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 300ms ease, color 300ms ease;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.buttons button{
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #eaeaea;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+.disabled{
+  pointer-events:none;
+}
+.form-wrapper{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+input{
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  background-color: transparent;
+  margin-top: 20px;
+  outline: none;
+  font-size: large;
+  color: aliceblue;
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .project-card{
+    max-width: 90%;
+  }
+}

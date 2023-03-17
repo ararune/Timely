@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "258a2506-ea8b-47d6-8b32-c460f8139136",
+      "title": "Project1",
+      "description": "This is a project 1 description.",
+      "startTime": "17/03/2023, 18:32:43",
+      "endTime": "17/03/2023, 18:32:43",
+      "duration": "00:00:01"
+    },
+    {
+      "id": "59ac28ca-6907-4afd-9b18-aa63e4a2a261",
+      "title": "Project 2",
+      "description": "Hello world, I don't know what to say.",
+      "startTime": "17/03/2023, 18:33:05",
+      "endTime": "17/03/2023, 18:33:05",
+      "duration": "00:00:05"
+    },
+    {
+      "id": "eae463cf-e4ec-4779-875c-a540636f8fde",
+      "title": "Project3",
+      "description": "Some dummy data to put here.",
+      "startTime": "17/03/2023, 18:33:34",
+      "endTime": "17/03/2023, 18:33:34",
+      "duration": "00:00:06"
+    },
+    {
+      "id": "d0895a1d-97c3-4e8b-96d2-115e38afbef2",
+      "title": "Project 4",
+      "description": "What should I write?",
+      "startTime": "17/03/2023, 18:33:50",
+      "endTime": "17/03/2023, 18:33:50",
+      "duration": "00:00:01"
+    },
+    {
+      "id": "ad60fd58-b226-42f4-ac51-f488b5d06daf",
+      "title": "Project 5",
+      "description": "I'm running out of stuff to write.",
+      "startTime": "17/03/2023, 18:34:05",
+      "endTime": "17/03/2023, 18:34:05",
+      "duration": "00:00:03"
+    },
+    {
+      "id": "d682854e-bd53-40a6-abe5-b7043f0f6b67",
+      "title": "Project 787542",
+      "description": "Who comes up with this shit?",
+      "startTime": "17/03/2023, 18:34:27",
+      "endTime": "17/03/2023, 18:34:27",
+      "duration": "00:00:07"
+    }
+  ]
+}
